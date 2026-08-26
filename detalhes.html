@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080812">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Detalhes | NEXUS</title>
+</head>
+<body>
+
+<header class="topbar">
+    <div class="logo">NEXUS</div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="perfil.html">Perfil</a>
+    </nav>
+</header>
+
+<main class="home">
+    <section class="login-card" style="max-width: 600px; margin: 0 auto;">
+        <div style="font-size: 60px; text-align: center;"></div>
+        
+        <h1 style="text-align: center; margin: 15px 0;">João Eletricista</h1>
+        
+        <p style="text-align: center; color: #a78bfa; font-size: 20px;"> 4.9</p>
+        
+        <p style="text-align: center; color: #999; margin: 10px 0;">
+             Curitiba – PR
+        </p>
+
+        <hr style="border: 1px solid rgba(255,255,255,0.1); margin: 25px 0;">
+
+        <h3 style="margin-bottom: 15px;">Serviços oferecidos:</h3>
+        <ul style="list-style: none; color: #ccc; line-height: 1.8;">
+            <li> Instalações elétricas</li>
+            <li> Manutenção e reparos</li>
+            <li> Iluminação residencial</li>
+            <li> Projetos elétricos</li>
+        </ul>
+
+        <button class="btn-primary" style="margin-top: 30px;" onclick="solicitar()">
+            SOLICITAR SERVIÇO
+        </button>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+<script>
+    function solicitar() {
+        alert("Solicitação enviada com sucesso!\nJoão entrará em contato em breve.");
+    }
+</script>
+</body>
+</html>
